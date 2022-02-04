@@ -1,0 +1,108 @@
+/* start #sec style */
+#sec{
+    background-color: white;
+}
+#sec .cat ul{
+    list-style: none;
+    padding-right: 0;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+#sec .cat h3{
+    font-weight: bold;
+    color: black;
+}
+#sec .cat ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #393f44;
+    transition: .7s;
+}
+#sec .cat ul li{
+    margin-top: 1rem
+}
+#sec .cat ul li a:hover{
+    color: #806d04;
+}
+#sec .cat ul li i{
+    color: #007091;
+    padding-left: .3rem;
+    transition: .7s;
+}
+#sec .cat h3 i, .arch i{
+    padding-right: .5rem;
+    color: #007091;
+}
+#sec .cat ul li a:hover i{
+    color: #393f44;
+}
+.the-end{
+    background-color: #393f44;
+}
+.the-end .selection .right,.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #sec .cat ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #393f44;
+    transition: .7s;
+    margin-right: 60px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #sec .cat ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #393f44;
+    transition: .7s;
+    margin-right: 60px;
+    }
+}
+    /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #sec .cat ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #393f44;
+    transition: .7s;
+    margin-right: 60px;
+    } 
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #sec .cat ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #393f44;
+        transition: .7s;
+    margin-right: 0px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        #sec .cat ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #393f44;
+            transition: .7s;
+            margin-right: 0px;
+        }
+}
+
+/* end #sec style */
+.content-two,.content-three,.content-four{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.pagn{
+    display: none;
+}

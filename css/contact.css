@@ -1,0 +1,47 @@
+.contact-us textarea {
+    resize: none;
+    border: 2px solid #5F5F5F;
+}
+.contact-us input{
+    border: 2px solid #5F5F5F;
+}
+.contact-us .sub{
+    width: fit-content;
+    border: 2px solid #5F5F5F;
+    border-radius: 1rem;
+    color: white;
+    background-color: #007091;
+    transition: .5s
+}
+.contact-us .sub:hover{
+    background-color: #5F5F5F;
+    border-color: #007091;
+}
+.contact-us h3{
+    display: none;
+}
+.move2{
+    width: fit-content;
+    color: #007091;
+    transition: .5s;
+    text-decoration: none;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.move2:hover{
+    color: red;
+}
+.movtivate{
+    width: fit-content;
+    border: 2px solid #5F5F5F;
+    border-radius: 1rem;
+    color: white;
+    background-color: #007091;
+    transition: .5s;
+    text-decoration: none;
+}
+.movtivate:hover{
+    background-color: #5F5F5F;
+    border-color: #007091;
+    color: white;
+}
